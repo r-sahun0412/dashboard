@@ -33,13 +33,13 @@ section {
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 /* Styles for .App element */
-.App {
+/* .App {
   height: 100vh; 
   display: grid; 
   grid-template-columns: 3fr 9fr; 
   font-family: 'Quicksand', Arial, Helvetica, sans-serif; 
 
-}
+} */
 
 /* Media Queries for responsive design */
 

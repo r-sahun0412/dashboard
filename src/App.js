@@ -9,6 +9,8 @@ import Graph from "./components/graph";
 
 import MyChart from "./components/pie";
 import Products from "./components/products-sell";
+import PersistentDrawerLeft from "./components/sidebar";
+
 import { SideBar } from "./components/side-bar";
 
 import { User } from "./components/user";
@@ -30,6 +32,7 @@ function App() {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               {/* Sidebar component */}
               <SideBar />
+              
             </div>
           </div>
         </nav>

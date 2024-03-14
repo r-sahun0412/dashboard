@@ -72,7 +72,7 @@ const Graph = () => {
       </div>
 
       <ResponsiveContainer>
-        <BarChart className="pb-5" height={400} width={400} data={data}>
+        <BarChart  height={400} width={400} data={data}>
         <XAxis dataKey="name"  axisLine={false}/> 
           <Bar radius={5} dataKey="er" onClick={handleClick}>
             {data.map((entry, index) => (
